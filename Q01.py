@@ -14,7 +14,7 @@
 # Sample Output:  Grade: B
 
 # --- YOUR CODE HERE ---
-x = int(input("enter a number(0-100) :"))
+x = int(input("Enter your score: "))
 if (x>=90 and x<=100):
     print("Grade: A")
 elif (x>=80 and x<90):
