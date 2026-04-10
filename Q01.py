@@ -14,3 +14,14 @@
 # Sample Output:  Grade: B
 
 # --- YOUR CODE HERE ---
+x = int(input("enter a number(0-100) :"))
+if (x>=90 and x<=100):
+    print("grade A")
+elif (x>=80 and x<90):
+    print("grade B")
+elif (x>=70 and x<80):
+    print("grade C")
+elif (x>=60 and x<70):
+    print("grade D")
+elif (x<60):
+    print("grade F")
