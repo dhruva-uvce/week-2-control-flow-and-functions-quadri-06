@@ -15,3 +15,8 @@
 # Sample Output 2:  1900 is not a leap year
 
 # --- YOUR CODE HERE ---
+x = int(input("enter a lead year: "))
+if (x%4==0 and x%100!=0 or x%400==0):
+    print(f"{x} is a lead year")
+else:
+    print(f"{x} is not a lead year")
