@@ -11,3 +11,7 @@
 #   5 x 10 = 50
 
 # --- YOUR CODE HERE ---
+x = int(input("enter a number: "))
+for i in range(1,11):
+    y=x*i
+    print(f"{x} x {i} = {y}")
